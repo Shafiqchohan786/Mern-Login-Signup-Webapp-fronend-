@@ -28,7 +28,7 @@ export default function Login() {
     setError(""); // Clear previous error
 
     try {
-      const res = await axios.post("http://localhost:8080/auth/login", {
+      const res = await axios.post("https://mern-auth-api-liart.vercel.app/login", {
         email: formData.email,
         password: formData.password,
       });
