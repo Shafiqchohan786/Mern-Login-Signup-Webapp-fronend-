@@ -1,6 +1,5 @@
-import axios from "axios";
+const API_BASE = "https://webapp-backend-production-3131.up.railway.app/auth";
 
-const API_BASE = "https://mern-auth-api-liart.vercel.app/auth"; // ✅ Backend deployed URL
+export const signup = (data) => axios.post(`${API_BASE}/signup`, data, { withCredentials: true });
+export const login = (data) => axios.post(`${API_BASE}/login`, data, { withCredentials: true });
 
-export const signup = (data) => axios.post(`${API_BASE}/signup`, data);
-export const login = (data) => axios.post(`${API_BASE}/login`, data);
