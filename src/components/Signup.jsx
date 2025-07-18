@@ -26,7 +26,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://mern-auth-api-liart.vercel.app/auth/signup", {
+      const res = await axios.post("https://webapp-backend-production-3131.up.railway.app/auth/signup", {
         name: formData.name.trim(),
         email: formData.email.trim(),
         password: formData.password,
