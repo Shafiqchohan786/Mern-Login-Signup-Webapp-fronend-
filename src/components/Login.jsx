@@ -28,7 +28,7 @@ export default function Login() {
     setError(""); // Clear previous error
 
     try {
-      const res = await axios.post("https://webapp-backend-production-3131.up.railway.app/auth/login", {
+      const res = await axios.post("https://4stack-registration-backend.zeabur.app/auth/login", {
         email: formData.email,
         password: formData.password,
       });
