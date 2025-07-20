@@ -317,3 +317,18 @@ form button:hover {
     text-align: center;
   }
 }
+.visit-site-btn {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.6rem 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.visit-site-btn:hover {
+  background-color: #388e3c;
+}
