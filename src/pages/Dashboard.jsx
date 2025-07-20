@@ -33,8 +33,17 @@ export default function Dashboard() {
       <main className="dashboard-main">
         <h2>Welcome, {userName}!</h2>
         <p className="welcome-text">
-          You are now logged in to 4Stack Blockchain Platform
+          You are now logged in to 4Stack Blockchain Platform<br />
+  If you want to visit our software development company, click the link below.
         </p>
+         <a
+          href="https://shafiqchohan786.github.io/4Stack-BlockChain/optechanimation1.netlify.app/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="visit-site-btn"
+        >
+          Visit 4Stack Website
+        </a>
 
         <div className="dashboard-content">
           <div className="user-image-box">
